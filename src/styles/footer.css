@@ -1,0 +1,25 @@
+.footer {
+    background: linear-gradient(#a70000, #b70000, #c71212);
+    color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-para {
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.footer .container {
+    flex-direction: column;
+}
+
+.footer .container .img {
+    height: 10rem;
+    width: 43rem;
+    margin-top: 1.2rem;
+}

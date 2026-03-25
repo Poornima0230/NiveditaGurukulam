@@ -1,0 +1,205 @@
+.admissions-section {
+    padding: 80px 20px;
+    background: #E3F2FD;
+    /* very light blue */
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 2px solid pink; */
+
+    flex-wrap: wrap;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(240, 244, 255, 0.95), rgba(255, 255, 255, 0.95));
+
+}
+
+.admissions-section .container .admission-heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+
+    width: 45%;
+}
+
+.admissions-badge {
+    /*display: block;
+    */
+    /*width: 100%;
+    */
+    background: #F28C38;
+    /*orange*/
+    color: white;
+    padding: 8px 24px;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+.admissions-section h2 {
+    font-size: 2.6rem;
+    color: #702F3F;
+    /* maroon */
+    /* margin-bottom: 40px; */
+}
+
+.admissions-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    /* max-width: 1100px; */
+    margin: 0 auto;
+
+
+}
+
+.info-box,
+.cta-box {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.admissions-content .info-box h3,
+.cta-box h3 {
+    font-size: 2.5rem;
+    color: #8A4B9E;
+    /* border: 3px solid pink; */
+    /* violet */
+    margin-bottom: 20px;
+}
+
+.info-box ul {
+    list-style: none;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
+.info-box li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 28px;
+}
+
+.info-box li::before {
+    content: "✓";
+    color: #F28C38;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.cta-box p {
+    font-size: 1.4rem;
+}
+
+.cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.call-btn {
+    background: #702F3F;
+    /* maroon */
+    color: white;
+}
+
+.call-btn:hover {
+    background: #5a2533;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: white;
+}
+
+.whatsapp-btn:hover {
+    background: #20b858;
+}
+
+.enquiry-btn {
+    background: #F28C38;
+    /* orange */
+    color: white;
+}
+
+.enquiry-btn:hover {
+    background: #d97706;
+}
+
+.note {
+    margin-top: 35px;
+    font-size: 1.4rem;
+    color: #555;
+    font-style: italic;
+}
+
+@media (max-width: 990px) {
+    /* .admissions-content {
+        /* flex-direction: column; */
+    /* } */
+
+    .admissions-section {
+        flex-direction: column;
+        /* border: 2px solid pink; */
+    }
+
+    .admissions-section .container {
+        /* border: 2px solid yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .admissions-section .container .admission-heading {
+        width: 100%;
+        padding: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .info-box li {
+        font-size: 1.7rem;
+    }
+
+    .cta-box p {
+        font-size: 1.7rem;
+    }
+
+    .cta-buttons a {
+        font-size: 1.7rem;
+    }
+}

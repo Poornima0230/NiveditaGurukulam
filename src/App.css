@@ -1,0 +1,32 @@
+.scroll-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  /*background-color: var(--accent2);
+  */
+  background: transparent;
+  color: var(--accent7);
+  /* border: 0.2px solid var(--accent3); */
+  border: none;
+  padding: 12px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+
+
+
+  &:hover {
+    /* background-color: var(--accent3); */
+    color: var(--accent7);
+  }
+}
