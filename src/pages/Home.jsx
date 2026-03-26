@@ -26,10 +26,10 @@ const Home = () => {
           </p>
 
           <div className="hero-buttons" data-aos="zoom-in">
-            <a href="/admissions" className="btn primary">
+            <a href="admissions" className="btn primary">
               Admissions 2026–27
             </a>
-            <a href="/contact" className="btn secondary">
+            <a href="contact" className="btn secondary">
               Enquire Now
             </a>
           </div>
@@ -75,7 +75,7 @@ const Home = () => {
             {/* Add the other 3–4 cards similarly */}
           </div>
 
-          <a href="/about" className="btn more-btn" data-aos="fade-up">
+          <a href="about" className="btn more-btn" data-aos="fade-up">
             Learn More About Us
           </a>
         </div>
