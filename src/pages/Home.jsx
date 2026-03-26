@@ -27,10 +27,10 @@ const Home = () => {
           </p>
 
           <div className="hero-buttons" data-aos="zoom-in">
-            <Link href="admissions" className="btn primary">
+            <Link to="admissions" className="btn primary">
               Admissions 2026–27
             </Link>
-            <Link href="contact" className="btn secondary">
+            <Link to="contact" className="btn secondary">
               Enquire Now
             </Link>
           </div>
@@ -76,7 +76,7 @@ const Home = () => {
             {/* Add the other 3–4 cards similarly */}
           </div>
 
-          <Link href="about" className="btn more-btn" data-aos="fade-up">
+          <Link to="about" className="btn more-btn" data-aos="fade-up">
             Learn More About Us
           </Link>
         </div>
