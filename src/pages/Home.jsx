@@ -8,7 +8,7 @@ import holistic from "../assets/images/girlLittle.jpg";
 // import { Gallery } from "./Gallery";
 import { Admissions } from "./Admissions";
 import { GalleryPreview } from "../components/ui/GalleryPreview";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -27,12 +27,12 @@ const Home = () => {
           </p>
 
           <div className="hero-buttons" data-aos="zoom-in">
-            <NavLink href="admissions" className="btn primary">
+            <Link href="admissions" className="btn primary">
               Admissions 2026–27
-            </NavLink>
-            <NavLink href="contact" className="btn secondary">
+            </Link>
+            <Link href="contact" className="btn secondary">
               Enquire Now
-            </NavLink>
+            </Link>
           </div>
         </div>
       </section>
@@ -76,9 +76,9 @@ const Home = () => {
             {/* Add the other 3–4 cards similarly */}
           </div>
 
-          <NavLink href="about" className="btn more-btn" data-aos="fade-up">
+          <Link href="about" className="btn more-btn" data-aos="fade-up">
             Learn More About Us
-          </NavLink>
+          </Link>
         </div>
       </section>
 
