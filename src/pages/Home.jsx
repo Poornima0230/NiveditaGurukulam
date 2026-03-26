@@ -76,9 +76,9 @@ const Home = () => {
             {/* Add the other 3–4 cards similarly */}
           </div>
 
-          <a href="about" className="btn more-btn" data-aos="fade-up">
+          <NavLink href="about" className="btn more-btn" data-aos="fade-up">
             Learn More About Us
-          </a>
+          </NavLink>
         </div>
       </section>
 
