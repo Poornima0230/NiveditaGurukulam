@@ -17,12 +17,18 @@ const Navbar = () => {
 
     if (menuOpen) {
       document.addEventListener("click", closeMenu);
+
+      // disable scroll
+      document.body.style.overflow = "hidden";
+    } else {
+      // enable scroll
+      document.body.style.overflow = "auto";
     }
 
     return () => {
       document.removeEventListener("click", closeMenu);
     };
-  });
+  }, [menuOpen]);
 
   return (
     <header className="header">
